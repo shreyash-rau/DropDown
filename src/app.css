@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: bisque;
+}
+
+.app {
+    text-align: center;
+    background-color: aqua;
+    padding: 20px 30px 20px 50px; 
+    width: fit-content; 
+    border-radius: 15px;
+}
+
+select{
+    width: 50%;
+    color: rgb(5, 5, 32);
+    background-color: rgb(88, 224, 241);
+    height: 30px;
+    font-size: 500;
+    border-radius: 10px;
+
+}
+
+button{
+    cursor: pointer;
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    background-attachment: fixed;
+    background-color: rgb(183, 233, 182);
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.para{
+    border: 1px solid red;
+}
